@@ -9,6 +9,11 @@
 :root {
   --dark-color: #000;
 }
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
 
 body {
   display: flex;
